@@ -1,5 +1,23 @@
 
                                            LINUX
+
+When production issues happen, Linux is where troubleshooting begins:
+ 🔹 Checking logs
+ 🔹 Analyzing processes
+ 🔹 Managing users and permissions
+ 🔹 Investigating disk space issues
+ 🔹 Automating repetitive tasks
+
+Today's learning included:
+ ✅ Linux File System Hierarchy
+ ✅ User & Group Management
+ ✅ File Permissions & ACLs
+ ✅ grep, find, wc commands
+ ✅ tar & Compression
+ ✅ Cron Jobs & Automation
+ ✅ Linux Administration Fundamentals
+
+ ##
 Basic Linux Questions:
 1. What is Linux? How is it different from Windows?
 2. What are the different Linux distributions?
