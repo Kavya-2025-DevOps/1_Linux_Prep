@@ -15,8 +15,9 @@ Basic Linux Questions:
 12.How do you create a new user and group in Linux?
 13.What is the purpose of the passwd command?
 14.How do you change file ownership in Linux?
-15.What is the purpose of the chmod command?
-16.Intermediate Linux Questions:
+15.What is the purpose of the chmod command?  
+
+Intermediate Linux Questions:  
 17.What are hard links and soft links?
 18.What is the difference between cron and at?
 19.How do you schedule a cron job?
@@ -34,16 +35,19 @@ Basic Linux Questions:
 31.What is the purpose of the kill command?
 32.How do you change a process's priority in Linux?
 33.What is the difference between nice and renice?
-34.How do you check CPU and memory usage?
-Follow on Linkedin @JatinBansalDevops
+34.How do you check CPU and memory usage?  
+Follow on Linkedin @JatinBansalDevops  
+
 35.How do you check open ports in Linux?
 36.What is the difference between df and du commands?
 37.How do you monitor real-time logs in Linux?
 38.How do you find which process is using a particular port?
 39.How do you check system logs in Linux?
 40.What is the dmesg command used for?
-41.What is the difference between ps, top, and htop?
-42.Advanced Linux Questions:
+41.What is the difference between ps, top, and htop?  
+
+Advanced Linux Questions:  
+
 43.What are the different types of process states in Linux?
 44.How do you check environment variables in Linux?
 45.How do you permanently set an environment variable?
@@ -73,8 +77,10 @@ Follow on Linkedin @JatinBansalDevops
 69.How do you extract specific lines from a file?
 70.What is the difference between /proc, /sys, and /dev directories?
 71.What are inodes in Linux?
-72.What is the difference between nohup, screen, and tmux?
-Follow on Linkedin @JatinBansalDevops
+72.What is the difference between nohup, screen, and tmux?  
+
+Follow on Linkedin @JatinBansalDevops  
+
 73.How do you copy an entire directory in Linux?
 74.What is the purpose of the rsync command?
 75.How do you set up a simple web server using python3 -m http.server?
@@ -101,25 +107,27 @@ Follow on Linkedin @JatinBansalDevops
 96.How do you enable IP forwarding in Linux?
 97.What is a kernel panic, and how do you troubleshoot it?
 98.What is the difference between ext3, ext4, and XFS filesystems?
-99.How do you perform a filesystem check in Linux?
+99.How do you perform a filesystem check in Linux?  
 
-Scenario-based Linux interview questions:
 
-File & Directory Management Scenarios
+Scenario-based Linux interview questions:  
+
+File & Directory Management Scenarios  
 1. You accidentally deleted an important file. How would you recover it in Linux?
 2. A user reports that they cannot access a file even though they have read
 permissions. What could be the issue?
 3. You need to find and delete all log files older than 30 days. How would you do that?
 4. A directory has thousands of files, and rm -rf is taking too long to delete them. How
 can you speed up the deletion process?
-Follow on Linkedin @JatinBansalDevops
-5. How do you find the top 10 largest files on your Linux system?
-6. A script is failing due to a "permission denied" error, even though you are running it
+
+Follow on Linkedin @JatinBansalDevops  
+6. How do you find the top 10 largest files on your Linux system?
+7. A script is failing due to a "permission denied" error, even though you are running it
 as root. What could be the reason?
-7. You need to rename multiple files in a directory that have spaces in their names.
+8. You need to rename multiple files in a directory that have spaces in their names.
 How would you do it?
-8. How do you compare two directories and find the differences in files?
-9. A user is unable to create files in a directory, but ls -l shows they have write
+9. How do you compare two directories and find the differences in files?
+10. A user is unable to create files in a directory, but ls -l shows they have write
 permission. What could be the problem?
 10.A symbolic link you created is broken. How do you troubleshoot and fix it?
 
@@ -141,25 +149,26 @@ unlock them?
 9. How do you prevent a user from logging in but allow their cron jobs to continue
 running?
 10.A team needs shared access to a directory, but files they create should be
-automatically accessible by others in the team. How do you configure this?
+automatically accessible by others in the team. How do you configure this?  
 
-Process & Performance Management Scenarios
+Process & Performance Management Scenarios  
 1. Your application is running slowly. How do you diagnose and fix the issue?
 2. A process is consuming 100% CPU. How do you identify and fix it?
 3. How do you identify which process is using the most memory?
-Follow on Linkedin @JatinBansalDevops
-4. A critical process keeps getting killed due to an "Out of Memory" error. How do you
-debug and prevent this?
-5. You need to keep a process running in the background even after logging out. How
-would you do that?
-6. A process is stuck and not responding to kill -9. What else can you try?
-7. How do you set a process to run with low priority automatically?
-8. You need to monitor system resource usage over time. Which tools would you use?
-9. Your server is running out of swap memory frequently. What steps would you take to
-fix this?
-10.How do you identify and stop zombie processes?
 
-Networking & Security Scenarios
+Follow on Linkedin @JatinBansalDevops  
+5. A critical process keeps getting killed due to an "Out of Memory" error. How do you
+debug and prevent this?
+6. You need to keep a process running in the background even after logging out. How
+would you do that?
+7. A process is stuck and not responding to kill -9. What else can you try?
+8. How do you set a process to run with low priority automatically?
+9. You need to monitor system resource usage over time. Which tools would you use?
+10. Your server is running out of swap memory frequently. What steps would you take to
+fix this?
+10.How do you identify and stop zombie processes?  
+
+Networking & Security Scenarios  
 1. A website running on your Linux server is inaccessible, but the server is up. How do
 you troubleshoot?
 2. You need to allow only a specific IP to access a server over SSH. How would you
@@ -177,21 +186,22 @@ troubleshoot it?
 9. You need to change the default SSH port for security reasons. How do you do it?
 10.How do you enable IP forwarding on a Linux system?
 
-Storage & Filesystem Scenarios
+Storage & Filesystem Scenarios  
 1. Your disk is 100% full. How do you find and remove unnecessary files?
 2. How do you check which directories are using the most disk space?
 3. A mount point is missing after a server reboot. How do you ensure it mounts
 automatically?
 4. How do you extend a partition without losing data?
+   
 Follow on Linkedin @JatinBansalDevops
-5. Your /var partition is full. How do you move it to another disk without downtime?
-6. How do you check the health of a hard disk in Linux?
-7. How do you recover a deleted partition table?
-8. A filesystem is mounted as read-only. How do you fix it?
-9. How do you check and repair a corrupted filesystem?
-10.What steps would you take to create a swap file and enable it?
+6. Your /var partition is full. How do you move it to another disk without downtime?
+7. How do you check the health of a hard disk in Linux?
+8. How do you recover a deleted partition table?
+9. A filesystem is mounted as read-only. How do you fix it?
+10. How do you check and repair a corrupted filesystem?
+10.What steps would you take to create a swap file and enable it?  
 
-System Logs & Troubleshooting Scenarios
+System Logs & Troubleshooting Scenarios  
 1. Your server is rebooting randomly. How do you investigate the cause?
 2. A user reports that they are getting a "Permission Denied" error when accessing a
 log file. What could be the issue?
@@ -202,9 +212,9 @@ log file. What could be the issue?
 7. How do you troubleshoot a slow boot process in Linux?
 8. How do you check if a service crashed and restarted automatically?
 9. How do you enable persistent logging on a Linux system?
-10.A cron job is not running as expected. How do you debug it?
+10.A cron job is not running as expected. How do you debug it?  
 
-Backup & Disaster Recovery Scenarios
+Backup & Disaster Recovery Scenarios  
 1. How do you back up a Linux system and restore it after failure?
 2. You need to create a scheduled incremental backup of a directory. How do you do
 it?
@@ -216,9 +226,9 @@ backup?
 7. How do you back up a MySQL/PostgreSQL database from the command line?
 8. How do you ensure backups are automatically verified for integrity?
 9. How do you restore a Linux system from a full disk backup?
-10.How do you create a bootable recovery disk in Linux?
+10.How do you create a bootable recovery disk in Linux?  
 
-System & Kernel Scenarios
+System & Kernel Scenarios  
 1. How do you upgrade the Linux kernel safely?
 2. You need to enable a specific kernel module. How do you do it?
 3. A server crashes with a kernel panic. How do you troubleshoot and fix it?
@@ -232,7 +242,7 @@ it?
 10.How do you apply security patches to a running Linux system without rebooting?
 Real-world situations (problem-solving and troubleshooting)
 
-File Management & Permissions Scenarios
+File Management & Permissions Scenarios  
 1. You created a file, but another user cannot access it even though they have read
 permissions. What could be the issue?
 2. A user is unable to delete a file, even though they have write permission on the file.
@@ -251,8 +261,8 @@ execute it. How do you fix it?
 9. How do you ensure that newly created files in a shared directory automatically have
 the correct permissions?
 10.You need to remove execute permission from all .sh files inside a directory. How
-would you do it?
-Follow on Linkedin @JatinBansalDevops
+would you do it?  
+Follow on Linkedin @JatinBansalDevops  
 11.A script runs fine manually but fails with a "Permission Denied" error when executed
 via a cron job. What could be wrong?
 12.You need to prevent a user from accessing a specific directory while keeping their
@@ -263,7 +273,7 @@ achieve this?
 reason?
 15.You want to track changes made to a critical file. How do you do that?
 
-File System & Storage Scenarios
+File System & Storage Scenarios  
 1. Your /home partition is full, but there is free space in /var. How do you resolve this
 without data loss?
 2. A user reports that they cannot create new files, but df -h shows enough free space.
@@ -288,7 +298,7 @@ How do you fix it?
 14.You need to copy an entire disk to another disk. What command would you use?
 15.How do you check which process is consuming the most disk I/O?
 
-Advanced Storage & Backup Scenarios
+Advanced Storage & Backup Scenarios  
 1. How do you create and restore a tar backup of a directory, while preserving file
 permissions?
 Follow on Linkedin @JatinBansalDevops
@@ -306,7 +316,7 @@ best approach?
 10.How do you schedule an automated disk usage report to be sent via email every
 week?
 
-NFS & Network Storage Scenarios
+NFS & Network Storage Scenarios  
 1. An NFS mount is extremely slow. How do you diagnose and fix the issue?
 2. How do you restrict NFS access to a specific IP range?
 3. A user gets "Stale NFS file handle" errors. What could be the cause?
@@ -321,7 +331,7 @@ How do you fix it?
 9. A CIFS share is not mounting at boot. How do you ensure it mounts automatically?
 10.How do you list all mounted remote filesystems and their options?
 
-Logical Volume Management (LVM) Scenarios
+Logical Volume Management (LVM) Scenarios  
 1. You need to create a new logical volume from available free space. How do you do
 it?
 2. A logical volume is full, and you need to extend it. How do you do that?
@@ -335,7 +345,7 @@ Follow on Linkedin @JatinBansalDevops
 9. How do you move a logical volume from one system to another?
 10.How do you check which physical disks are used in an LVM setup?
 
-File & Storage Performance Optimization Scenarios
+File & Storage Performance Optimization Scenarios  
 1. A large number of small files are slowing down disk performance. How do you
 optimize it?
 2. How do you enable write caching on a disk to improve performance?
