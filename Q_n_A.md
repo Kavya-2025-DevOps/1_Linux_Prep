@@ -92,6 +92,6 @@ Basic Linux Questions:
     
 12.How do you create a new user and group in Linux?  
 
-13.What is the purpose of the passwd command?
-14.How do you change file ownership in Linux? 
-15.What is the purpose of the chmod command? 
+13.What is the purpose of the passwd command?  
+14.How do you change file ownership in Linux?   
+15.What is the purpose of the chmod command?   
