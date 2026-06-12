@@ -65,8 +65,8 @@ Basic Linux Questions:
 9. What is the difference between absolute and relative paths?   
    An absolute path starts from the root directory (/) and gives the full location,    
    while a relative path is based on the current working directory.  
-   
-10.How do you check disk space usage in Linux?  
+
+10. How do you check disk space usage in Linux?  
     To check disk space usage in Linux, we use the following command: "df -h "  
     Explanation:  
 	      df → shows disk space usage of file systems  
@@ -77,7 +77,7 @@ Basic Linux Questions:
     Additional command (for directory usage):  
         "du -sh *"  => Shows size of files and directories in current folder  
 
-11.What is the difference between rm, rmdir, and rm -rf?  
+11. What is the difference between rm, rmdir, and rm -rf?  
     1. rm => "rm file.txt"  
         Used to delete files  
         Can also delete directories with options  
@@ -90,8 +90,35 @@ Basic Linux Questions:
         -f → force (no confirmation prompts)  
         Dangerous command: Can permanently delete important data if used incorrectly.  
     
-12.How do you create a new user and group in Linux?  
+12. How do you create a new user and group in Linux?
+    A new user is created with useradd, a new group with groupadd, and a user can be added to a group using usermod -aG.  
+    Create a New User : "sudo useradd username"  
+    Set a password: "sudo passwd username"
+    Create a New Group: "sudo groupadd groupname"
+    Add User to a Group: " sudo usermod -aG groupname username"
 
 13.What is the purpose of the passwd command?  
-14.How do you change file ownership in Linux?   
-15.What is the purpose of the chmod command?   
+	The passwd command is used to set or change or manage a user's password in Linux. "passwd username"
+	Change your own password:"passwd"
+	Change another user's password (as root/sudo):"sudo passwd john"
+	
+	
+14. How do you change file ownership in Linux?
+    The chown command is used to change the ownership of files and directories in Linux, optionally changing both the owner and group.
+    Change file owner: "sudo chown username file.txt"  
+    Change owner and group: "sudo chown username:groupname file.txt"  
+    Change ownership recursively for a directory: "sudo chown -R username:groupname myfolder"  
+    Ex: sudo chown john:developers project.txt (This changes the owner to john and the group to developers.)  
+    
+    
+15. What is the purpose of the chmod command?
+    The chmod command is used to change file and directory permissions in Linux. "chmod 755 file.sh"
+    Meaning of 755:  
+		7 (Owner) = Read + Write + Execute (rwx)  
+		5 (Group) = Read + Execute (r-x)  
+		5 (Others) = Read + Execute (r-x)
+    Symbolic mode example: chmod u+x file.sh (Adds execute permission for the owner.)
+    Purpose:  
+		Grant or remove read, write, and execute permissions.
+		Control access to files and directories.
+
